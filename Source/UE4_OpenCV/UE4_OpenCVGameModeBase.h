@@ -7,14 +7,9 @@
 #include "UE4_OpenCVGameModeBase.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
-class UE4_OPENCV_API AUE4_OpenCVGameModeBase : public AGameModeBase
-{
-	GENERATED_BODY()
-	
-	
-	
-	
+class UE4_OPENCV_API AUE4_OpenCVGameModeBase : public AGameModeBase {
+  GENERATED_BODY()
 };
