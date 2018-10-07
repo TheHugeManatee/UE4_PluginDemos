@@ -8,5 +8,6 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
-	]
+	],
+	"EngineAssociation": "4.19"
 }
