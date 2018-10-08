@@ -173,8 +173,7 @@ public:
     return dst;
   };
 
-  UFUNCTION(BlueprintCallable,
-            meta = (DisplayName = "Canny Edge Detection", CompactNodeTitle = "Canny"),
+  UFUNCTION(BlueprintCallable, meta = (DisplayName = "Canny Edge Detection"),
             Category = "OpenCV|ImageProcessing")
   static UCVUMat *Canny(const UCVUMat *src, UCVUMat *dst, float threshold1, float threshold2,
                         int apertureSize = 3, bool L2Gradient = false) {
