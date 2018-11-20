@@ -9,6 +9,7 @@ public class UE4_OpenCV : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
         bEnableExceptions = true;
+        bEnableUndefinedIdentifierWarnings = false;
 
         PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "OpenCV" });
 
