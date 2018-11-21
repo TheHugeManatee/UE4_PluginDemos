@@ -1,0 +1,3 @@
+[submodule "Plugins/OpenCV"]
+	path = Plugins/OpenCV
+	url = https://github.com/TheHugeManatee/OpenCV_Unreal.git
