@@ -1,3 +1,6 @@
 [submodule "Plugins/OpenCV"]
 	path = Plugins/OpenCV
 	url = https://github.com/TheHugeManatee/OpenCV_Unreal.git
+[submodule "Plugins/SIMPLE"]
+	path = Plugins/SIMPLE
+	url = https://github.com/TheHugeManatee/SIMPLE_Unreal.git
