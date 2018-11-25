@@ -13,7 +13,7 @@ Use OpenCV functionality from within Unreal Engine
 This repository uses git-lfs [git-lfs](https://git-lfs.github.com/) to store the binaries of the *.uasset files. Furthermore, it uses submodules (which in turn use LFS to store *.dll and *.lib files).
 The most reliable way to get everything set up cleanly is
 ```
-    git lfs clone https://github.com/TheHugeManatee/UE4_PluginDemos.git --recurse
+    git lfs clone https://github.com/TheHugeManatee/UE4_PluginDemos.git --recursive
 ```
 
 ## Using
