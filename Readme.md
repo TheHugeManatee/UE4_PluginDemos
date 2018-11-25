@@ -1,13 +1,16 @@
-# OpenCV Plugin for Unreal Engine
-Use OpenCV functionality from within Unreal Engine
+# Plugin Demos for Unreal Engine
+Demonstrates the basic usage of some of our plugins.
 
 # Features
- * Use `cv::VideoCapture` as an actor to get either camera or video images into a Render Target
- * `UCVUMat`: UE-Managed wrapper for `cv::UMat` to allow implementation of algorithms in Blueprints
- * Blueprint wrappers for image processing methods
- * Conversion of `UCVUMat` to Render target and vice versa
-
-# Usage
+ * Shows how to use the **OpenCV plugin**
+    * Grabs a texture from a VideoCapture camera stream and maps it to several Actors
+    * Shows how to perform basic image processing (Blurring, Canny Edge Detection)
+    * Shows how to wrap additional OpenCV functions for use in blueprints
+ * Demonstrates Usage of the **SIMPLE plugin**
+    * Receives an image publisher stream using the `ImageSubscriber` actor and uploads it to a texture (Compatible with the example_image_publisher from the SIMPLE examples)
+    * Receives a transform message using the `TransformSubscriberComponent` and moves the attached actor accordingly
+ * **Raymarching Plugin**
+    * No demo yet. Note: Compiling this plugin needs a custom engine build. If you don't want to test it, just delete the plugin folder.
 
 ## Cloning/Downloading
 This repository uses git-lfs [git-lfs](https://git-lfs.github.com/) to store the binaries of the *.uasset files. Furthermore, it uses submodules (which in turn use LFS to store *.dll and *.lib files).
@@ -17,13 +20,13 @@ The most reliable way to get everything set up cleanly is
 ```
 
 ## Using
-To use the example project, simply open the uproject. You will be prompted to build the C++ code for the two plugins as well as the main module. 
-You will also have to rebuild lighting data from the editor. 
-If you want to play around with the C++ code, right-click on the `.uproject` file and choose "Generate Visual Studio Project Files".
+To use the example project, simply open the uproject. You will be prompted to build the C++ code for the plugins as well as the main module. 
+You will probably also have to rebuild lighting data from the editor. 
+If you want to play around with the C++ code, right-click on the `.uproject` file and choose "Generate Visual Studio Project Files", then open the generated solution.
 
 
 # Platforms
 Currently only Windows is supported as the plugins do not currently work with other platforms.
 
-**Tested on Unreal Engine 4.19** <br/>
+**Tested on Unreal Engine 4.21** <br/>
 However, other versions might still work.
