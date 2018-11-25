@@ -9,7 +9,7 @@
 
 #include <opencv2/opencv.hpp>
 
-#include "UE4_OpenCV.generated.h"
+#include "UE4_PluginDemos.generated.h"
 
 UENUM(BlueprintType)  //"BlueprintType" is essential to include
 enum class FCVInterpolationFlags : uint8 {
@@ -41,7 +41,7 @@ enum class EMorphOperation : uint8 {
 };
 
 UCLASS()
-class UE4_OpenCV : public UObject {
+class UE4_PluginDemos : public UObject {
   GENERATED_BODY()
 
 public:

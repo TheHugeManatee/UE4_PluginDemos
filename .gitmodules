@@ -4,3 +4,6 @@
 [submodule "Plugins/SIMPLE"]
 	path = Plugins/SIMPLE
 	url = https://github.com/TheHugeManatee/SIMPLE_Unreal.git
+[submodule "Plugins/VolumeRaymarching"]
+	path = Plugins/VolumeRaymarching
+	url = https://github.com/TheHugeManatee/UE4_VolumeRaymarching.git

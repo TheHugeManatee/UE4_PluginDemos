@@ -4,10 +4,10 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "UE4_OpenCV",
+			"Name": "UE4_PluginDemos",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
 	],
-	"EngineAssociation": "4.21"
+	"EngineAssociation": "{38A92809-4312-DA02-605C-59988E54609E}"
 }
