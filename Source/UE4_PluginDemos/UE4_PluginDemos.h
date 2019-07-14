@@ -2,12 +2,18 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
-
 #include "OpenCV.h"
 #include "UCVUMat.h"
 
-#include <opencv2/opencv.hpp>
+THIRD_PARTY_INCLUDES_START
+#pragma warning(push)
+#pragma warning(disable : 4190)  // "FUNCTION has  has C-linkage specified, but returns UDT
+                                 // IDENTIFIER which is incompatible with C
+#include <opencv2/imgproc.hpp>
+#pragma warning(pop)
+THIRD_PARTY_INCLUDES_END
+
+#include "CoreMinimal.h"
 
 #include "UE4_PluginDemos.generated.h"
 
